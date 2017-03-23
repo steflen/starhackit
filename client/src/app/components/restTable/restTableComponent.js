@@ -7,10 +7,10 @@ import segmentize from 'segmentize';
 import Spinner from 'components/spinner';
 import alertAjax from 'components/alertAjax';
 import Debug from 'debug';
+import 'react-pagify/style.css';
+import './restTable.css';
 
 const debug = new Debug("restTableComponent");
-
-import 'react-pagify/style.css';
 
 export default (context, store, {columns}) => {
   const {tr} = context;
